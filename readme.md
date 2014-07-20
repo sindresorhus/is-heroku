@@ -15,7 +15,7 @@ $ npm install --save is-heroku
 ```js
 var isHeroku = require('is-heroku');
 
-// on you local computer
+// on your local computer
 console.log(isHeroku);
 //=> false
 
@@ -24,7 +24,7 @@ console.log(isHeroku);
 //=> true
 ```
 
-Add a [environment variable](https://devcenter.heroku.com/articles/config-vars) first to improve the detection:
+Add an [environment variable](https://devcenter.heroku.com/articles/config-vars) first to improve the detection:
 
 ```sh
 $ heroku config:set HEROKU=1
