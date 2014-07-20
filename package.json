@@ -1,0 +1,36 @@
+{
+  "name": "is-heroku",
+  "version": "0.0.0",
+  "description": "Check if your code is running on Heroku",
+  "license": "MIT",
+  "repository": "sindresorhus/is-heroku",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "heroku",
+    "is",
+    "check",
+    "detect",
+    "env",
+    "environment"
+  ],
+  "dependencies": {
+    "is-npm": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.3",
+    "require-uncached": "^1.0.2"
+  }
+}
