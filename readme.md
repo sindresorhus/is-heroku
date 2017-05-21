@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save is-heroku
 ```
 
@@ -13,24 +13,24 @@ $ npm install --save is-heroku
 ## Usage
 
 ```js
-var isHeroku = require('is-heroku');
+const isHeroku = require('is-heroku');
 
-// on your local computer
+// On your local computer
 console.log(isHeroku);
 //=> false
 
-// on Heroku
+// On Heroku
 console.log(isHeroku);
 //=> true
 ```
 
 Add an [environment variable](https://devcenter.heroku.com/articles/config-vars) first to improve the detection:
 
-```sh
+```
 $ heroku config:set HEROKU=1
 ```
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

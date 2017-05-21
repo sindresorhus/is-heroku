@@ -1,12 +1,11 @@
-'use strict';
-var test = require('ava');
-var requireUncached = require('require-uncached');
+import test from 'ava';
+import importFresh from 'import-fresh';
 
-test('not heroku', function (t) {
-	t.assert(!requireUncached('./'));
+test('not heroku', t => {
+	t.false(importFresh('.'));
 });
 
-test('heroku', function (t) {
+test('heroku', t => {
 	process.env.HEROKU = 1;
-	t.assert(requireUncached('./'));
+	t.true(importFresh('.'));
 });
