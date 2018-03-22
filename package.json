@@ -1,6 +1,6 @@
 {
   "name": "is-heroku",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if your code is running on Heroku",
   "license": "MIT",
   "repository": "sindresorhus/is-heroku",
@@ -16,7 +16,8 @@
     "test": "xo && ava"
   },
   "files": [
-    "index.js"
+    "index.js",
+		"license"
   ],
   "keywords": [
     "heroku",
