@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save is-heroku
+$ npm install is-heroku
 ```
 
 
