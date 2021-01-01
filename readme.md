@@ -1,4 +1,4 @@
-# is-heroku [![Build Status](https://travis-ci.org/sindresorhus/is-heroku.svg?branch=master)](https://travis-ci.org/sindresorhus/is-heroku)
+# is-heroku
 
 > Check if your code is running on Heroku
 
