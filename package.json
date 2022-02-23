@@ -1,6 +1,6 @@
 {
 	"name": "is-heroku",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Check if your code is running on Heroku",
 	"license": "MIT",
 	"repository": "sindresorhus/is-heroku",
