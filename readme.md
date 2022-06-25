@@ -27,3 +27,7 @@ Add an [environment variable](https://devcenter.heroku.com/articles/config-vars)
 ```sh
 heroku config:set HEROKU=1
 ```
+
+## Related
+
+- [is-heroku-bin](https://github.com/shian15810/is-heroku-bin) - CLI for this module
